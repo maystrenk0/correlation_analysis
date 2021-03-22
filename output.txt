@@ -1,0 +1,39 @@
+pearson
+                       year  suicides_no  ...  HDI for year  gdp_per_capita
+year               1.000000    -0.024297  ...      0.366786        0.297888
+suicides_no       -0.024297     1.000000  ...      0.151399        0.105182
+population        -0.012628     0.698758  ...      0.102943        0.073701
+suicides/100k pop -0.077410     0.237169  ...      0.074279       -0.002339
+HDI for year       0.366786     0.151399  ...      1.000000        0.771228
+gdp_per_capita     0.297888     0.105182  ...      0.771228        1.000000
+
+[6 rows x 6 columns]
+
+
+spearman
+                       year  suicides_no  ...  HDI for year  gdp_per_capita
+year               1.000000    -0.042841  ...      0.329094        0.327475
+suicides_no       -0.042841     1.000000  ...      0.184755        0.084085
+population        -0.020724     0.762456  ...      0.133076        0.053653
+suicides/100k pop -0.060357     0.717508  ...      0.152627        0.067476
+HDI for year       0.329094     0.184755  ...      1.000000        0.928608
+gdp_per_capita     0.327475     0.084085  ...      0.928608        1.000000
+
+[6 rows x 6 columns]
+
+
+kendall
+                       year  suicides_no  ...  HDI for year  gdp_per_capita
+year               1.000000    -0.030382  ...      0.234793        0.233916
+suicides_no       -0.030382     1.000000  ...      0.121828        0.055232
+population        -0.014514     0.575942  ...      0.090117        0.035116
+suicides/100k pop -0.042359     0.542566  ...      0.099305        0.043455
+HDI for year       0.234793     0.121828  ...      1.000000        0.762445
+gdp_per_capita     0.233916     0.055232  ...      0.762445        1.000000
+
+[6 rows x 6 columns]
+
+
+(0.36678621884786305, 1.0525556338887172e-264)
+SpearmanrResult(correlation=0.32909431943385137, pvalue=1.9117661179615775e-210)
+KendalltauResult(correlation=0.23479268786388127, pvalue=1.9174410949510152e-205)
